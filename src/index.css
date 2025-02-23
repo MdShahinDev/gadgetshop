@@ -1,81 +1,93 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import 'tailwindcss';
 @theme {
-  --font-inter: 'Inter', serif;
-  --font-roboto: 'Roboto', serif;
-  --color-primary: #f6c902;
+  --font-inter: 'Inter', sans-serif;
+  --font-roboto: 'Roboto', sans-serif;
+  --color-primary: #f47f20;
+  --color-hover: #fc7100;
 }
 @layer base {
   h1 {
     font-size: 24px;
     font-weight: 700;
-    font-family: 'Inter', serif;
+    font-family: 'Inter', sans-serif;
   }
   h2 {
     font-size: 20px;
     font-weight: 600;
-    font-family: 'Inter', serif;
+    font-family: 'Inter', sans-serif;
   }
   h3 {
     font-size: 18px;
     font-weight: 500;
-    font-family: 'Inter', serif;
+    font-family: 'Inter', sans-serif;
   }
   h4 {
     font-size: 16px;
     font-weight: 500;
-    font-family: 'Inter', serif;
+    font-family: 'Inter', sans-serif;
   }
   p {
     font-size: 14px;
     font-weight: 400;
-    font-family: 'Roboto', serif;
+    font-family: 'Roboto', sans-serif;
   }
   button {
+    color:white;
     font-size: 14px;
-    font-weight: 600;
-    font-family: 'Inter', serif;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    background: var(--color-primary);
+    transition: all ease 300ms;
+    padding: 12px 32px;
+  }
+  button:hover{
+    background: var(--color-hover);
+    cursor: pointer;
+  }
+  button:active{
+    background: white;
   }
   .responsive-padding{
-    padding-left: 16px;
-    padding-right: 16px;
+    padding: 0 16px;
   }
-
+  .active{
+    color: var(--color-primary);
+  }
   @media (min-width: 640px) {
     /* sm */
     h1 {
       font-size: 24px;
       font-weight: 700;
-      font-family: 'Inter', serif;
+      font-family: 'Inter', sans-serif;
     }
     h2 {
       font-size: 20px;
       font-weight: 600;
-      font-family: 'Inter', serif;
+      font-family: 'Inter', sans-serif;
     }
     h3 {
       font-size: 18px;
       font-weight: 500;
-      font-family: 'Inter', serif;
+      font-family: 'Inter', sans-serif;
     }
     h4 {
       font-size: 16px;
       font-weight: 500;
-      font-family: 'Inter', serif;
+      font-family: 'Inter', sans-serif;
     }
     p {
       font-size: 14px;
       font-weight: 400;
-      font-family: 'Roboto', serif;
+      font-family: 'Roboto', sans-serif;
     }
     button {
       font-size: 14px;
       font-weight: 600;
-      font-family: 'Inter', serif;
+      font-family: 'Inter', sans-serif;
     }
     .responsive-padding{
-      padding-left: 16px;
-      padding-right: 16px;
+      padding: 0 16px;
     }
   }
 
@@ -84,36 +96,35 @@
     h1 {
       font-size: 32px;
       font-weight: 700;
-      font-family: 'Inter', serif;
+      font-family: 'Inter', sans-serif;
     }
     h2 {
       font-size: 24px;
       font-weight: 600;
-      font-family: 'Inter', serif;
+      font-family: 'Inter', sans-serif;
     }
     h3 {
       font-size: 20px;
       font-weight: 500;
-      font-family: 'Inter', serif;
+      font-family: 'Inter', sans-serif;
     }
     h4 {
       font-size: 18px;
       font-weight: 500;
-      font-family: 'Inter', serif;
+      font-family: 'Inter', sans-serif;
     }
     p {
       font-size: 16px;
       font-weight: 400;
-      font-family: 'Roboto', serif;
+      font-family: 'Roboto', sans-serif;
     }
     button {
       font-size: 16px;
       font-weight: 600;
-      font-family: 'Inter', serif;
+      font-family: 'Inter', sans-serif;
     }
     .responsive-padding{
-      padding-left: 0;
-      padding-right: 0;
+      padding: 0 16px;
     }
   }
 
@@ -138,16 +149,15 @@
     p {
       font-size: 18px;
       font-weight: 400;
-      font-family: 'Roboto', serif;
+      font-family: 'Roboto', sans-serif;
     }
     button {
       font-size: 18px;
       font-weight: 600;
-      font-family: 'Inter', serif;
+      font-family: 'Inter', sans-serif;
     }
     .responsive-padding{
-      padding-left: 0;
-      padding-right: 0;
+      padding: 0 0;
     }
   }
 }
