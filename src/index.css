@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import 'tailwindcss';
+@theme {
+  --font-inter: 'Inter', serif;
+  --font-roboto: 'Roboto', serif;
+  --color-primary: #f6c902;
+}
+@layer base {
+  h1 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Inter', serif;
+  }
+  h2 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Inter', serif;
+  }
+  h3 {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Inter', serif;
+  }
+  h4 {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Inter', serif;
+  }
+  p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', serif;
+  }
+  button {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Inter', serif;
+  }
+  .responsive-padding{
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  @media (min-width: 640px) {
+    /* sm */
+    h1 {
+      font-size: 24px;
+      font-weight: 700;
+      font-family: 'Inter', serif;
+    }
+    h2 {
+      font-size: 20px;
+      font-weight: 600;
+      font-family: 'Inter', serif;
+    }
+    h3 {
+      font-size: 18px;
+      font-weight: 500;
+      font-family: 'Inter', serif;
+    }
+    h4 {
+      font-size: 16px;
+      font-weight: 500;
+      font-family: 'Inter', serif;
+    }
+    p {
+      font-size: 14px;
+      font-weight: 400;
+      font-family: 'Roboto', serif;
+    }
+    button {
+      font-size: 14px;
+      font-weight: 600;
+      font-family: 'Inter', serif;
+    }
+    .responsive-padding{
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    /* md */
+    h1 {
+      font-size: 32px;
+      font-weight: 700;
+      font-family: 'Inter', serif;
+    }
+    h2 {
+      font-size: 24px;
+      font-weight: 600;
+      font-family: 'Inter', serif;
+    }
+    h3 {
+      font-size: 20px;
+      font-weight: 500;
+      font-family: 'Inter', serif;
+    }
+    h4 {
+      font-size: 18px;
+      font-weight: 500;
+      font-family: 'Inter', serif;
+    }
+    p {
+      font-size: 16px;
+      font-weight: 400;
+      font-family: 'Roboto', serif;
+    }
+    button {
+      font-size: 16px;
+      font-weight: 600;
+      font-family: 'Inter', serif;
+    }
+    .responsive-padding{
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    /* lg */
+    h1 {
+      font-size: 48px;
+      font-weight: bo700ld;
+    }
+    h2 {
+      font-size: 32px;
+      font-weight: 600;
+    }
+    h3 {
+      font-size: 24px;
+      font-weight: 500;
+    }
+    h4 {
+      font-size: 20px;
+      font-weight: 500;
+    }
+    p {
+      font-size: 18px;
+      font-weight: 400;
+      font-family: 'Roboto', serif;
+    }
+    button {
+      font-size: 18px;
+      font-weight: 600;
+      font-family: 'Inter', serif;
+    }
+    .responsive-padding{
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}
