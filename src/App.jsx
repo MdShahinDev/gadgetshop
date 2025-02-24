@@ -2,11 +2,11 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 
 import Header from './components/Header';
-import Home from './temp/Home';
-import Shop from './temp/Shop';
-import Product from './temp/Product';
-import Wishlist from './temp/Wishlist';
-import MyAccount from './temp/MyAccount';
+import Home from './Pages/Home';
+import Shop from './Pages/Shop';
+import Product from './Pages/Product';
+import Wishlist from './Pages/Wishlist';
+import MyAccount from './Pages/MyAccount';
 
 function App() {
   return (
