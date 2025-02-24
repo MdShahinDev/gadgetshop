@@ -1,12 +1,14 @@
 import React from 'react'
 import HomeHeroSlider from '../components/HomeHeroSlider'
 import SectionTitle from '../ReusableComponent/SectionTitle'
+import Category from '../Components/Category'
 
 const Home = () => {  
   return (
     <div>
       <HomeHeroSlider/>
-      <SectionTitle/>
+      <SectionTitle heading='Browse by Category' text='Get your desired product from featured category' />
+      <Category/>
     </div>
   )
 }
