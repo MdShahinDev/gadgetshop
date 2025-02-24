@@ -15,7 +15,7 @@ const HomeHeroSlider = () => {
     autoplaySpeed: 2000,
   };
   return (
-    <div className='container mx-auto mt-4 '>
+    <div className='container mx-auto mt-4 overflow-hidden'>
       <Slider {...settings} className='mb-4'>
         <div>
           <div className='slide-img relative'>
