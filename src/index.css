@@ -39,7 +39,6 @@
     font-family: 'Inter', sans-serif;
     background: var(--color-primary);
     transition: all ease 300ms;
-    padding: 12px 32px;
   }
   button:hover{
     background: var(--color-hover);

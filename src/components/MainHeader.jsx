@@ -62,9 +62,9 @@ const MainHeader = () => {
         </div>
         {/* Desktop Header */}
         {/* Desktop Menu */}
-        <div className='hidden md:block z-10 border-b border-gray-300 bg-[#e6effd] responsive-padding overflow-x-hidden'>
+        <div className='hidden md:block z-10 border-b border-gray-300 bg-black responsive-padding overflow-x-hidden'>
           <div className='main-menu py-4 container mx-auto '>
-            <ul className='flex gap-4 justify-center text-base font-medium  text-gray-900 uppercase'>
+            <ul className='flex gap-4 justify-center text-base font-medium  text-white uppercase'>
               <NavLink to={'/'}>
                 <li className='hover:text-hover'>Home</li>
               </NavLink>
