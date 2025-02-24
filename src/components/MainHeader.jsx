@@ -5,6 +5,7 @@ import { FaRegHeart } from 'react-icons/fa';
 import { FiShoppingCart } from 'react-icons/fi';
 import { FaRegUserCircle } from 'react-icons/fa';
 import { IoMenu, IoClose  } from 'react-icons/io5';
+import { MdOutlineShoppingBag } from "react-icons/md";
 const MainHeader = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
@@ -40,20 +41,17 @@ const MainHeader = () => {
               <ul className='flex justify-between gap-8 text-xl lg:text-2xl'>
                 <li className='relative hover:text-hover transition-all'>
                   <Link to={'/wishlist'}>
-                    {' '}
                     <FaRegHeart /> <span className='absolute -bottom-3 -right-3 text-xs bg-primary rounded-full text-black font-semibold w-5 h-5 flex justify-center items-center'>0</span>{' '}
                   </Link>
                 </li>
                 <li className='relative hover:text-hover transition-all'>
-                  <Link>
-                    {' '}
-                    <FiShoppingCart /> <span className='absolute -bottom-3 -right-3 text-xs bg-primary rounded-full text-black font-semibold w-5 h-5 flex justify-center items-center'>0</span>{' '}
+                  <Link to={'/cart'}>
+                    <MdOutlineShoppingBag /> <span className='absolute -bottom-3 -right-3 text-xs bg-primary rounded-full text-black font-semibold w-5 h-5 flex justify-center items-center'>0</span>{' '}
                   </Link>
                 </li>
                 <li className=' hover:text-hover transition-all'>
                   <Link to={'/my-account'}>
-                    {' '}
-                    <FaRegUserCircle />{' '}
+                    <FaRegUserCircle />
                   </Link>
                 </li>
               </ul>
@@ -88,16 +86,15 @@ const MainHeader = () => {
               </Link>
             </div>
             <div className='shopping-cart'>
-              <ul className='flex justify-between gap-5 text-lg sm:gap-5'>
+              <ul className='flex justify-between gap-5 text-xl sm:gap-6'>
                 <li className='relative hover:text-hover transition-all'>
                   <Link to={'/wishlist'}>
                     <FaRegHeart /> <span className='absolute -bottom-2 -right-2 text-xs bg-primary rounded-full text-black font-semibold w-4 h-4 flex justify-center items-center'>0</span>{' '}
                   </Link>
                 </li>
                 <li className='relative hover:text-hover transition-all'>
-                  <Link>
-                    
-                    <FiShoppingCart /> <span className='absolute -bottom-2 -right-2 text-xs bg-primary rounded-full text-black font-semibold w-4 h-4 flex justify-center items-center'>0</span>{' '}
+                  <Link to={'/cart'}>
+                    <MdOutlineShoppingBag /> <span className='absolute -bottom-2 -right-2 text-xs bg-primary rounded-full text-black font-semibold w-4 h-4 flex justify-center items-center'>0</span>{' '}
                   </Link>
                 </li>
                 <li className=' hover:text-hover transition-all'>
