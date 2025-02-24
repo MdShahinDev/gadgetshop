@@ -5,7 +5,7 @@ import cat3 from '../assets/category/cat-3.webp'
 import cat4 from '../assets/category/cat-4.webp'
 import cat5 from '../assets/category/cat-5.webp'
 import cat6 from '../assets/category/cat-6.webp'
-const Category = () => {
+const HomeCategory = () => {
   return (
     <div className='container mx-auto responsive-padding my-2 py-2'>
       <div className='grid gap-4 grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6'>
@@ -39,4 +39,4 @@ const Category = () => {
   );
 };
 
-export default Category;
+export default HomeCategory;

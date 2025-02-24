@@ -1,16 +1,16 @@
-import React from 'react'
-import HomeHeroSlider from '../temporart/HomeHeroSlider'
-import SectionTitle from '../ReusableComponent/SectionTitle'
-import Category from '../temporart/Category'
+import React from 'react';
+import HomeHeroSlider from '../Components/HomeHeroSlider';
+import SectionTitle from '../ReusableComponent/SectionTitle';
+import HomeCategory from '../Components/HomeCategory';
 
-const Home = () => {  
+const Home = () => {
   return (
     <div>
-      <HomeHeroSlider/>
+      <HomeHeroSlider />
       <SectionTitle heading='Browse by Category' text='Get your desired product from featured category' />
-      <Category/>
+      <HomeCategory />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
