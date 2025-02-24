@@ -1,7 +1,7 @@
 import React from 'react'
-import HomeHeroSlider from '../components/HomeHeroSlider'
+import HomeHeroSlider from '../ttttt/HomeHeroSlider'
 import SectionTitle from '../ReusableComponent/SectionTitle'
-import Category from '../Components/Category'
+import Category from '../ttttt/Category'
 
 const Home = () => {  
   return (
