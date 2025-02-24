@@ -84,11 +84,11 @@ const MainHeader = () => {
             </div>
             <div className='logo'>
               <Link to={'/'}>
-                <img className='w-32 sm:w-48' src={logo} alt='Logo' />
+                <img className='w-40 sm:w-48' src={logo} alt='Logo' />
               </Link>
             </div>
             <div className='shopping-cart'>
-              <ul className='flex justify-between gap-3 text-base sm:text-lg sm:gap-5'>
+              <ul className='flex justify-between gap-5 text-lg sm:gap-5'>
                 <li className='relative hover:text-hover transition-all'>
                   <Link to={'/wishlist'}>
                     <FaRegHeart /> <span className='absolute -bottom-2 -right-2 text-xs bg-primary rounded-full text-black font-semibold w-4 h-4 flex justify-center items-center'>0</span>{' '}
