@@ -10,7 +10,7 @@ const Home = () => {
       <HomeHeroSlider />
       <SectionTitle heading='Browse by Category' text='Get your desired product from featured category' />
       <HomeCategory />
-      <SectionTitle heading='Ready For Order' text='New Arrival Product are Ready for your order 🔥'/>
+      <SectionTitle heading='Ready For Order 🔥' text='New Arrival Product are Ready for your order'/>
       <HomeReadyForOrder/>
     </div>
   );
