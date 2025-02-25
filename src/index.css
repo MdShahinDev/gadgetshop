@@ -34,8 +34,6 @@
   }
   button {
     color:white;
-    font-size: 14px;
-    font-weight: 500;
     font-family: 'Inter', sans-serif;
     background: var(--color-primary);
     transition: all ease 300ms;
@@ -81,8 +79,6 @@
       font-family: 'Roboto', sans-serif;
     }
     button {
-      font-size: 14px;
-      font-weight: 600;
       font-family: 'Inter', sans-serif;
     }
     .responsive-padding{
@@ -118,8 +114,6 @@
       font-family: 'Roboto', sans-serif;
     }
     button {
-      font-size: 16px;
-      font-weight: 600;
       font-family: 'Inter', sans-serif;
     }
     .responsive-padding{
@@ -151,12 +145,13 @@
       font-family: 'Roboto', sans-serif;
     }
     button {
-      font-size: 18px;
-      font-weight: 600;
       font-family: 'Inter', sans-serif;
     }
     .responsive-padding{
       padding: 0 0;
     }
   }
+}
+.slick-slide > div{
+  margin: 0 10px;
 }
