@@ -8,7 +8,7 @@ import cat6 from '../assets/category/cat-6.webp';
 const HomeCategory = () => {
   return (
     <div className='container mx-auto responsive-padding my-6 py-2'>
-      <div className='grid gap-4 grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6'>
+      <div className='grid gap-4 grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6'>
         <div className='single-cat flex flex-col justify-center items-center py-4 shadow-lg rounded-lg border border-gray-200 cursor-pointer'>
           <img src={cat6} alt='' className='w-[100px] h-auto rounded-lg ' />
           <p className='text-center my-4'>Smartphone</p>
