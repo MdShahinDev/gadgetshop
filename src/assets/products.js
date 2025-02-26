@@ -15,7 +15,7 @@ export const products = [
     short_description: 'The Nothing Phone (2a) features a unique design with the Glyph Interface and a focus on a clean Android experience.',
     long_description:
       "The Nothing Phone (2a) stands out with its transparent back showcasing the unique Glyph Interface, a system of LED lights that provide notifications, charging status, and more.  It's designed for a smooth Android experience, powered by a capable processor, offering a clean, bloatware-free OS.  Capture stunning photos with its advanced camera system and enjoy a vibrant display. The Phone (2a) is a blend of style and substance, offering a refreshing take on the modern smartphone.",
-    image: ['/NOTHING-phone-(2a)-Black-7194.jpg', '/NOTHING-phone-(2a)-Milk-5997.jpg'],
+    image: ['/images/NOTHING-phone-(2a)-Black-7194.jpg', '/images/NOTHING-phone-(2a)-Milk-5997.jpg'],
     product_sku: 'NothingPhone2a-B12',
   },
   {
@@ -37,10 +37,10 @@ export const products = [
     long_description:
       'The iPhone 16 Pro Max offers a premium smartphone experience with its cutting-edge technology and sleek design.  It boasts a vibrant Super Retina XDR display, perfect for watching videos and playing games. The powerful A17 chip ensures blazing-fast performance, handling demanding tasks with ease. Capture incredible photos and videos with the advanced camera system, offering improved low-light performance and enhanced image processing.  Experience the latest iOS features and a seamless user experience. ',
     image: [
-      'iPhone-16-Pro-Max---16-Pro-Desert-Titanium-1929.jpg',
-      'iPhone-16-Pro-Max---16-Pro-Black-Titanium-2734.jpg',
-      'iPhone-16-Pro-Max---16-Pro-White-Titanium-5148.jpg',
-      'iPhone-16-Pro-Max---16-Pro-Natural-Titanium-3560.jpg',
+      '/images/iPhone-16-Pro-Max---16-Pro-Desert-Titanium-1929.jpg',
+      '/images/iPhone-16-Pro-Max---16-Pro-Black-Titanium-2734.jpg',
+      '/images/iPhone-16-Pro-Max---16-Pro-White-Titanium-5148.jpg',
+      '/images/iPhone-16-Pro-Max---16-Pro-Natural-Titanium-3560.jpg',
     ],
     product_sku: 'iPhone16ProMax-A78',
   },
@@ -63,10 +63,10 @@ export const products = [
     long_description:
       'The iPhone 16 Pro delivers a premium mobile experience with its cutting-edge technology and sleek design.  It features a vibrant Super Retina XDR display, ideal for immersive viewing.  The powerful A17 chip enables blazing-fast performance, effortlessly handling demanding applications.  Capture stunning photos and videos with the enhanced camera system, offering improved low-light capabilities and advanced image processing.  Enjoy the latest iOS features and a seamless user experience. ',
     image: [
-      'iPhone-16-Pro-Max---16-Pro-Black-Titanium-2734 (1).jpg',
-      'iPhone-16-Pro-Max---16-Pro-Desert-Titanium-1929 (1).jpg',
-      'iPhone-16-Pro-Max---16-Pro-Natural-Titanium-3560 (1).jpg',
-      'iPhone-16-Pro-Max---16-Pro-White-Titanium-5148 (1).jpg',
+      '/images/iPhone-16-Pro-Max---16-Pro-Black-Titanium-2734 (1).jpg',
+      '/images/iPhone-16-Pro-Max---16-Pro-Desert-Titanium-1929 (1).jpg',
+      '/images/iPhone-16-Pro-Max---16-Pro-Natural-Titanium-3560 (1).jpg',
+      '/images/iPhone-16-Pro-Max---16-Pro-White-Titanium-5148 (1).jpg',
     ],
     product_sku: 'iPhone16Pro-X56',
   },
@@ -85,7 +85,7 @@ export const products = [
     short_description: 'The Galaxy Tab S6 Lite (2024) offers a sleek design, a vibrant display, and the S Pen for enhanced productivity.',
     long_description:
       "The Galaxy Tab S6 Lite (2024) is designed for both productivity and entertainment.  It features a slim and lightweight design, making it perfect for on-the-go use.  The vibrant display brings your content to life, whether you're watching movies or browsing the web.  Included with the tablet is the S Pen, allowing you to take notes, draw, and navigate with precision.  Enjoy long-lasting battery life and seamless integration with other Samsung devices. ",
-    image: ['Galaxy-Tab-S6-Lite---2024-Edition-Mint-9238.jpg', 'Galaxy-Tab-S6-Lite---2024-Edition-Oxford-Gray-7734.jpg', 'Galaxy-Tab-S6-Lite---2024-Edition-Rose-Gold-2590.jpg'],
+    image: ['/images/Galaxy-Tab-S6-Lite---2024-Edition-Mint-9238.jpg', '/images/Galaxy-Tab-S6-Lite---2024-Edition-Oxford-Gray-7734.jpg', '/images/Galaxy-Tab-S6-Lite---2024-Edition-Rose-Gold-2590.jpg'],
     product_sku: 'GalaxyTabS6Lite2024-Y23',
   },
   {
@@ -105,7 +105,7 @@ export const products = [
     short_description: 'The iPhone 13 features a Super Retina XDR display, A15 Bionic chip, and an advanced dual-camera system.',
     long_description:
       'The iPhone 13 offers a powerful combination of performance and features.  It boasts a vibrant Super Retina XDR display, perfect for viewing photos, videos, and playing games. The A15 Bionic chip delivers blazing-fast performance and exceptional battery life.  Capture stunning photos and videos with the advanced dual-camera system, which excels in low-light conditions.  Experience the intuitive iOS operating system and seamless integration with other Apple devices. ',
-    image: ['3408-30421.jpg', '3408-34138.jpg', '3408-95471.jpg', '3408-55737.jpg', 'iPhone-13-9214.jpg', 'iPhone-13-Green-1718.jpg'],
+    image: ['/images/3408-30421.jpg', '/images/3408-34138.jpg', '/images/3408-95471.jpg', '/images/3408-55737.jpg', '/images/iPhone-13-9214.jpg', '/images/iPhone-13-Green-1718.jpg'],
     product_sku: 'iPhone13-Z91',
   },
   {
@@ -124,7 +124,7 @@ export const products = [
     short_description: 'The Pixel 9 offers a smooth display, the powerful Google Tensor G3 chip, and an exceptional camera.',
     long_description:
       'The Pixel 9 delivers a pure Android experience with the latest Google innovations.  It features a smooth and responsive display, perfect for browsing and gaming.  The Google Tensor G3 chip provides powerful performance and enhanced AI capabilities.  Capture stunning photos and videos with the exceptional camera system, renowned for its image quality and computational photography.  Experience the latest Android features and seamless integration with Google services. ',
-    image: ['Pixel-9-Obsidian-9359.jpg', 'Pixel-9-Wintergreen-3768.jpg', 'Pixel-9-Peony-3850.jpg', 'Pixel-9-Porcelain-8576.jpg'],
+    image: ['/images/Pixel-9-Obsidian-9359.jpg', '/images/Pixel-9-Wintergreen-3768.jpg', '/images/Pixel-9-Peony-3850.jpg', '/images/Pixel-9-Porcelain-8576.jpg'],
     product_sku: 'Pixel9-W42',
   },
   {
@@ -142,7 +142,7 @@ export const products = [
     short_description: 'The Galaxy A55 5G offers a vibrant display, 5G connectivity, and a versatile camera system.',
     long_description:
       'The Galaxy A55 5G provides a great balance of features and value.  Enjoy a vibrant and immersive display, ideal for streaming content and playing games.  Experience fast and reliable 5G connectivity for seamless browsing and downloads.  Capture impressive photos and videos with the versatile camera system, designed for various shooting scenarios.  The long-lasting battery ensures you can stay connected throughout the day. ',
-    image: ['Galaxy-A55-5G-Ice-blue-8107.jpg', 'Galaxy-A55-5G-Lilac-6309.jpg', 'Galaxy-A55-5G-Navy-3452.jpg', 'Galaxy-A55-5G-Lemon-8684.jpg'],
+    image: ['/images/Galaxy-A55-5G-Ice-blue-8107.jpg', '/images/Galaxy-A55-5G-Lilac-6309.jpg', '/images/Galaxy-A55-5G-Navy-3452.jpg', '/images/Galaxy-A55-5G-Lemon-8684.jpg'],
     product_sku: 'GalaxyA555G-V75',
   },
   {
@@ -160,7 +160,7 @@ export const products = [
     short_description: 'The Xiaomi Redmi 14C offers a large display, long battery life, and essential features.',
     long_description:
       'The Xiaomi Redmi 14C provides a budget-friendly smartphone experience with essential features. It typically features a large display suitable for everyday tasks and media consumption. A long-lasting battery is usually a highlight, allowing users to stay connected throughout the day. The phone offers decent performance for common tasks and includes a camera system capable of capturing shareable photos. ',
-    image: ['Xiaomi-Redmi-14C-Dreamy-Purple-3299.jpg', 'Xiaomi-Redmi-14C-Midnight-Black-6312.jpg', 'Xiaomi-Redmi-14C-Sage-Green-6708.jpg', 'Xiaomi-Redmi-14C-Starry-Blue-6655.jpg'],
+    image: ['/images/Xiaomi-Redmi-14C-Dreamy-Purple-3299.jpg', '/images/Xiaomi-Redmi-14C-Midnight-Black-6312.jpg', '/images/Xiaomi-Redmi-14C-Sage-Green-6708.jpg', '/images/Xiaomi-Redmi-14C-Starry-Blue-6655.jpg'],
     product_sku: 'XiaomiRedmi14C-Q39',
   },
   {
@@ -180,11 +180,11 @@ export const products = [
     long_description:
       'The iPhone 16 provides a great combination of performance and features. It boasts a beautiful Super Retina XDR display, ideal for viewing all your content. The powerful A16 chip ensures smooth performance and efficient battery life. Capture impressive photos and videos with the improved camera system. Experience the user-friendly iOS and seamless integration with the Apple ecosystem. ',
     image: [
-      'iPhone-16-Plus---16-Ultramarine-6297.jpg',
-      'iPhone-16-Plus---16-Black-9711.jpg',
-      'iPhone-16-Plus---16-Pink-9850.jpg',
-      'iPhone-16-Plus---16-Teal-5598.jpg',
-      'iPhone-16-Plus---16-White-2018.jpg',
+      '/images/iPhone-16-Plus---16-Ultramarine-6297.jpg',
+      '/images/iPhone-16-Plus---16-Black-9711.jpg',
+      '/images/iPhone-16-Plus---16-Pink-9850.jpg',
+      '/images/iPhone-16-Plus---16-Teal-5598.jpg',
+      '/images/iPhone-16-Plus---16-White-2018.jpg',
     ],
     product_sku: 'iPhone16-K87',
   },
@@ -203,7 +203,7 @@ export const products = [
     short_description: 'The Galaxy Tab S9 FE offers a large display, S Pen support, and a sleek design.',
     long_description:
       'The Galaxy Tab S9 FE is designed for both productivity and entertainment.  It features a large and immersive display, perfect for watching videos, browsing, and creating.  The included S Pen allows for precise note-taking, drawing, and navigation.  Enjoy a sleek and stylish design, along with long-lasting battery life. ',
-    image: ['Gray-4614.jpg', 'Silver-8669.jpg', 'Lavender-1538.jpg', 'Mint-9881.jpg'],
+    image: ['/images/Gray-4614.jpg', '/images/Silver-8669.jpg', '/images/Lavender-1538.jpg', '/images/Mint-9881.jpg'],
     product_sku: 'GalaxyTabS9FE-M52',
   },
   {
@@ -222,7 +222,7 @@ export const products = [
     short_description: 'The iPhone 12 Pro Max features a Super Retina XDR display, A14 Bionic chip, and a pro camera system.',
     long_description:
       'The iPhone 12 Pro Max offers a premium smartphone experience with its advanced features and elegant design.  It boasts a stunning Super Retina XDR display, ideal for immersive viewing.  The powerful A14 Bionic chip delivers blazing-fast performance and exceptional battery life.  Capture professional-quality photos and videos with the pro camera system, excelling in low-light photography.  Experience the intuitive iOS operating system and seamless integration with the Apple ecosystem. ',
-    image: ['Gold-5985.jpg', 'iPhone-12-Pro-(Apple-Refurbished)-Graphite-4239.jpg', 'Silver-7923-2505.jpg'],
+    image: ['/images/Gold-5985.jpg', '/images/iPhone-12-Pro-(Apple-Refurbished)-Graphite-4239.jpg', '/images/Silver-7923-2505.jpg'],
     product_sku: 'iPhone12ProMax-P94',
   },
   {
@@ -242,10 +242,10 @@ export const products = [
     long_description:
       'The Galaxy S25 Ultra 5G represents the pinnacle of mobile technology, boasting a refined design and top-tier features.  Experience a vibrant and immersive display, perfect for consuming all types of content.  The powerful processor ensures seamless multitasking and smooth performance.  Capture breathtaking photos and videos with the revolutionary camera system, pushing the boundaries of mobile photography.  Enjoy long-lasting battery life and a premium user experience. ',
     image: [
-      'Galaxy-S25-Ultra-5G-Titanium-Gray-6080.jpg',
-      'Galaxy-S25-Ultra-5G-Titanium-Black-7783.jpg',
-      'Galaxy-S25-Ultra-5G-Titanium-Silverblue-3141.jpg',
-      'Galaxy-S25-Ultra-5G-Titanium-Jadegreen-4375.jpg',
+      '/images/Galaxy-S25-Ultra-5G-Titanium-Gray-6080.jpg',
+      '/images/Galaxy-S25-Ultra-5G-Titanium-Black-7783.jpg',
+      '/images/Galaxy-S25-Ultra-5G-Titanium-Silverblue-3141.jpg',
+      '/images/Galaxy-S25-Ultra-5G-Titanium-Jadegreen-4375.jpg',
     ],
     product_sku: 'GalaxyS25Ultra5G-S17',
   },
@@ -264,7 +264,7 @@ export const products = [
     short_description: 'The Pixel 8a offers a great camera, smooth performance, and the pure Android experience.',
     long_description:
       "The Pixel 8a delivers a fantastic Android experience with Google's signature features and performance.  It boasts a great camera system, capturing stunning photos and videos with ease.  Enjoy smooth and responsive performance, powered by a capable processor.  Experience the clean and intuitive Android operating system, with timely updates and seamless integration with Google services. ",
-    image: ['Pixel-8a-Obsidian-9541.jpg', 'Pixel-8a-Bay-9485.jpg', 'Pixel-8a-aloe-8972.jpg', 'Pixel-8a-Porcelain-4918.jpg'],
+    image: ['/images/Pixel-8a-Obsidian-9541.jpg', '/images/Pixel-8a-Bay-9485.jpg', '/images/Pixel-8a-aloe-8972.jpg', '/images/Pixel-8a-Porcelain-4918.jpg'],
     product_sku: 'Pixel8a-D62',
   },
   {
@@ -283,7 +283,7 @@ export const products = [
     short_description: 'The Pixel 9 Pro XL offers a smooth display, the powerful Google Tensor G3 chip, and an exceptional camera.',
     long_description:
       'The Pixel 9 Pro XL provides a premium Android experience with cutting-edge technology and sleek design. It features a smooth and responsive display, perfect for immersive viewing. The Google Tensor G3 chip delivers powerful performance and enhanced AI capabilities. Capture stunning photos and videos with the exceptional camera system, renowned for its image quality and computational photography. Experience the latest Android features and seamless integration with Google services. ',
-    image: ['Pixel-9-Pro-Porcelain-8239.jpg', 'Pixel-9-Pro-Obsidian-6557.jpg', 'Pixel-9-Pro-Hazel-6081.jpg', 'Pixel-9-Pro-Rose-Quartz-1331.jpg'],
+    image: ['/images/Pixel-9-Pro-Porcelain-8239.jpg', '/images/Pixel-9-Pro-Obsidian-6557.jpg', '/images/Pixel-9-Pro-Hazel-6081.jpg', '/images/Pixel-9-Pro-Rose-Quartz-1331.jpg'],
     product_sku: 'Pixel9ProXL-E98',
   },
   {
@@ -303,7 +303,7 @@ export const products = [
     short_description: 'The Pixel 8 Pro boasts a brilliant display, the Google Tensor G3 chip, and an exceptional camera system.',
     long_description:
       "The Pixel 8 Pro delivers a premium Android experience with Google's latest innovations. It features a brilliant and responsive display, perfect for immersive viewing and gaming. The Google Tensor G3 chip provides powerful performance and enhanced AI capabilities. Capture stunning photos and videos with the exceptional camera system, renowned for its image quality and computational photography features. Experience the latest Android features and seamless integration with Google services. ",
-    image: ['Pixel-8-Pro-Bay-1840.jpg', 'Pixel-8-Pro-Obsidian-7046.jpg', 'Pixel-8-Pro-Porcelain-5189.jpg', 'Pixel-8-Pro-Mint-9745.jpg'],
+    image: ['/images/Pixel-8-Pro-Bay-1840.jpg', '/images/Pixel-8-Pro-Obsidian-7046.jpg', '/images/Pixel-8-Pro-Porcelain-5189.jpg', '/images/Pixel-8-Pro-Mint-9745.jpg'],
     product_sku: 'Pixel8Pro-G47',
   },
   {
@@ -321,7 +321,7 @@ export const products = [
     short_description: 'The Galaxy S21 FE 5G offers flagship features, a vibrant display, and 5G connectivity.',
     long_description:
       'The Galaxy S21 FE 5G brings flagship-level features to a more accessible price point.  It features a vibrant and immersive display, ideal for gaming and streaming.  Experience powerful performance and fast 5G connectivity for seamless browsing and downloads.  Capture stunning photos and videos with the capable camera system.  The long-lasting battery ensures you can stay connected throughout the day. ',
-    image: ['Galaxy-S21-FE-5G-Navy-Blue-6635.jpg', '4204-88781.jpg', '4204-91680.jpg', '4204-22937.jpg'],
+    image: ['/images/Galaxy-S21-FE-5G-Navy-Blue-6635.jpg', '/images/4204-88781.jpg', '/images/4204-91680.jpg', '/images/4204-22937.jpg'],
     product_sku: 'GalaxyS21FE5G-H29',
   },
   {
@@ -340,7 +340,7 @@ export const products = [
     short_description: 'The Motorola Moto G85 5G offers 5G connectivity, a large display, and a long-lasting battery.',
     long_description:
       'The Motorola Moto G85 5G provides a solid smartphone experience with essential features and reliable performance. Enjoy fast 5G connectivity for smooth browsing and downloads. The large display is great for watching videos and playing games. A long-lasting battery ensures you can stay connected throughout the day. Capture decent photos with the camera system. ',
-    image: ['Motorola-Moto-G85-5G-Cobalt-Blue-6517.jpg', 'Motorola-Moto-G85-5G-Olive-Green-3145.jpg', 'Motorola-Moto-G85-5G-Urban-Grey-5503.jpg', 'Motorola-Moto-G85-5G-Viva-Magenta-9852.jpg'],
+    image: ['/images/Motorola-Moto-G85-5G-Cobalt-Blue-6517.jpg', '/images/Motorola-Moto-G85-5G-Olive-Green-3145.jpg', '/images/Motorola-Moto-G85-5G-Urban-Grey-5503.jpg', '/images/Motorola-Moto-G85-5G-Viva-Magenta-9852.jpg'],
     product_sku: 'MotoG855G-J51',
   },
   {
@@ -359,10 +359,10 @@ export const products = [
     long_description:
       'The Motorola Edge 50 Fusion 5G combines stylish design with capable performance. It features a curved display, providing an immersive viewing experience. Experience fast 5G connectivity for smooth streaming and downloads. Capture decent photos and videos with the capable camera system. The phone also offers a long-lasting battery. ',
     image: [
-      'Motorola-Edge-50-Fusion-Hot-Pink-3782.jpg',
-      'Motorola-Edge-50-Fusion-Forest-Blue-5848.jpg',
-      'Motorola-Edge-50-Fusion-Marshmallow-Blue-3091.jpg',
-      'Motorola-edge-50-fusion-Forest-Green-5399.jpg',
+      '/images/Motorola-Edge-50-Fusion-Hot-Pink-3782.jpg',
+      '/images/Motorola-Edge-50-Fusion-Forest-Blue-5848.jpg',
+      '/images/Motorola-Edge-50-Fusion-Marshmallow-Blue-3091.jpg',
+      '/images/Motorola-edge-50-fusion-Forest-Green-5399.jpg',
     ],
     product_sku: 'MotoEdge50Fusion5G-L83',
   },
@@ -382,7 +382,7 @@ export const products = [
     short_description: 'The Redmi Note 13 Pro Plus 5G offers a large display, 5G connectivity, and a high-resolution camera.',
     long_description:
       'The Redmi Note 13 Pro Plus 5G delivers a compelling combination of features and value. It features a large and immersive display, ideal for watching videos and gaming. Experience fast 5G connectivity for seamless browsing and downloads. Capture detailed photos with the high-resolution camera system. The phone also packs a long-lasting battery. ',
-    image: ['Redmi-Note-13-Pro-Plus-Purple-2974.jpg', 'Redmi-Note-13-Pro-Plus-White-9374.jpg', 'Redmi-Note-13-Pro-Plus-Black-8955.jpg'],
+    image: ['/images/Redmi-Note-13-Pro-Plus-Purple-2974.jpg', '/images/Redmi-Note-13-Pro-Plus-White-9374.jpg', '/images/Redmi-Note-13-Pro-Plus-Black-8955.jpg'],
     product_sku: 'RedmiNote13ProPlus5G-N16',
   },
   {
@@ -400,7 +400,7 @@ export const products = [
     short_description: 'The Galaxy F05 offers a large display, long-lasting battery, and essential features.',
     long_description:
       'The Galaxy F05 provides a budget-friendly smartphone experience with a focus on essential features.  It typically includes a large display for comfortable viewing.  A long-lasting battery is usually a key feature, allowing users to stay connected.  The phone offers decent performance for everyday tasks and includes a camera system suitable for capturing photos and videos for social media. ',
-    image: ['Galaxy-F05-Blue-4331.jpg'],
+    image: ['/images/Galaxy-F05-Blue-4331.jpg'],
     product_sku: 'GalaxyF05-R65',
   },
   {
@@ -417,7 +417,7 @@ export const products = [
     short_description: 'Nokia Essential True Wireless Earphones E3511 ANC offer active noise cancellation and true wireless freedom.',
     long_description:
       'The Nokia Essential True Wireless Earphones E3511 ANC provide a premium audio experience with active noise cancellation. Enjoy your music without distractions, and experience true wireless freedom. These earphones offer comfortable fit and long battery life. ',
-    image: ['Nokia-E3511-ANC-Black-9880.jpg', 'Nokia-E3511-ANC-Blue-6821.jpg', 'Nokia-E3511-ANC-White-4382.jpg'],
+    image: ['/images/Nokia-E3511-ANC-Black-9880.jpg', '/images/Nokia-E3511-ANC-Blue-6821.jpg', '/images/Nokia-E3511-ANC-White-4382.jpg'],
     product_sku: 'NokiaE3511ANC-T97',
   },
   {
@@ -434,7 +434,7 @@ export const products = [
     short_description: 'Redmi Buds 6 Lite ANC TWS Earbuds offer active noise cancellation and a lightweight design.',
     long_description:
       'The Redmi Buds 6 Lite ANC TWS Earbuds deliver immersive audio with active noise cancellation, blocking out unwanted background noise. Enjoy your music and calls with clarity. The lightweight design ensures a comfortable fit for extended wear. These earbuds offer a great value for the price. ',
-    image: [],
+    image: ['/images/'],
     product_sku: 'RedmiBuds6LiteANC-U44',
   },
   {
@@ -451,7 +451,7 @@ export const products = [
     short_description: 'OnePlus Buds Ace 2 ANC TWS Earbuds provide powerful sound, active noise cancellation, and a comfortable fit.',
     long_description:
       'The OnePlus Buds Ace 2 ANC TWS Earbuds offer a premium audio experience with powerful sound and effective active noise cancellation. Immerse yourself in your music and calls without distractions. The comfortable fit ensures enjoyable listening for extended periods. These earbuds are designed to provide a high-quality audio experience. ',
-    image: ['OnePlus-Buds-Ace-2-ANC-TWS-Earbuds-Blue-3118.jpg', 'OnePlus-Buds-Ace-2-ANC-TWS-Earbuds-Black-1110.jpg'],
+    image: ['/images/OnePlus-Buds-Ace-2-ANC-TWS-Earbuds-Blue-3118.jpg', '/images/OnePlus-Buds-Ace-2-ANC-TWS-Earbuds-Black-1110.jpg'],
     product_sku: 'OnePlusBudsAce2ANC-V76',
   },
   {
@@ -467,7 +467,7 @@ export const products = [
     review: 135,
     short_description: 'Oraimo Spacebuds Neo: Immersive sound, comfortable fit.',
     long_description: 'The Oraimo Spacebuds Neo TWS Earbuds offer an immersive audio experience with a focus on comfort. ',
-    image: ['Oraimo-Spacebuds-Neo-TWS-Earbuds-1969.jpg', 'Oraimo-Spacebuds-Neo-TWS-Earbuds-gold-3459.jpg', 'Oraimo-Spacebuds-Neo-TWS-Earbuds-blue-1976.jpg'],
+    image: ['/images/Oraimo-Spacebuds-Neo-TWS-Earbuds-1969.jpg', '/images/Oraimo-Spacebuds-Neo-TWS-Earbuds-gold-3459.jpg', '/images/Oraimo-Spacebuds-Neo-TWS-Earbuds-blue-1976.jpg'],
     product_sku: 'OraimoSpacebudsNeo-X92',
   },
   {
@@ -484,7 +484,7 @@ export const products = [
     short_description: 'Apple AirPods (4th Generation) deliver rich audio, a comfortable fit, and seamless connectivity.',
     long_description:
       'Apple AirPods (4th Generation) offer a truly wireless listening experience with rich, high-quality audio.  Enjoy a comfortable and secure fit, perfect for all-day wear. Seamlessly connect to your Apple devices and experience effortless pairing. These AirPods provide clear calls and easy access to Siri. (This is a sample; please expand up to 300 characters)',
-    image: ['Apple-AirPods-4-2409.jpg'],
+    image: ['/images/Apple-AirPods-4-2409.jpg'],
     product_sku: 'AppleAirPods4-Y37',
   },
   {
@@ -501,7 +501,7 @@ export const products = [
     short_description: 'JBL Live Flex 3 NC TWS Earbuds offer powerful sound, adaptive noise cancellation, and a comfortable fit.',
     long_description:
       'The JBL Live Flex 3 NC TWS Earbuds deliver powerful JBL Signature Sound with deep bass and clear highs. Adaptive noise cancellation blocks out distractions, allowing you to focus on your music. The comfortable and secure fit ensures all-day wearability. Enjoy long battery life and convenient features. (This is a sample; please expand up to 300 characters)',
-    image: ['JBL-Live-Flex-3-NC-TWS-Earbuds-blue-9922.jpg', 'JBL-Live-Flex-3-NC-TWS-Earbuds-purple-3329.jpg', 'Live-Flex-3-silver-7488.jpg'],
+    image: ['/images/JBL-Live-Flex-3-NC-TWS-Earbuds-blue-9922.jpg', '/images/JBL-Live-Flex-3-NC-TWS-Earbuds-purple-3329.jpg', '/images/Live-Flex-3-silver-7488.jpg'],
     product_sku: 'JBLiveFlex3NC-Z64',
   },
   {
@@ -518,7 +518,7 @@ export const products = [
     short_description: 'OnePlus Nord Buds 3 Pro offer immersive audio, active noise cancellation, and a comfortable fit.',
     long_description:
       'The OnePlus Nord Buds 3 Pro provide an immersive audio experience with rich sound and powerful bass. Active noise cancellation effectively blocks out distractions, allowing you to focus on your music or calls. The comfortable and ergonomic design ensures a secure fit for extended wear. Enjoy long battery life and seamless connectivity. (This is a sample; please expand up to 300 characters)',
-    image: ['OnePlus-Nord-Buds-3-Pro-Soft-Jade-8550.jpg', 'OnePlus-Nord-Buds-3-Pro-Starry-Black-1722.jpg'],
+    image: ['/images/OnePlus-Nord-Buds-3-Pro-Soft-Jade-8550.jpg', '/images/OnePlus-Nord-Buds-3-Pro-Starry-Black-1722.jpg'],
     product_sku: 'OnePlusNordBuds3Pro-A81',
   },
   {
@@ -536,10 +536,10 @@ export const products = [
     long_description:
       'The Anker Soundcore P40i True Wireless Earbuds deliver balanced sound with clear highs and rich bass. Enjoy extended playtime with the long battery life. The comfortable and secure fit makes them perfect for all-day wear. These earbuds offer great value and reliable performance. (This is a sample; please expand up to 300 characters)',
     image: [
-      'Anker-Soundcore-P40i-True-Wireless-Earbuds-Navy-Blue-2792.jpg',
-      'Anker-Soundcore-P40i-True-Wireless-Earbuds-Ota-White-2143.jpg',
-      'Anker-Soundcore-P40i-True-Wireless-Earbuds-Purple-9431.jpg',
-      'Untitled-design-1-2165.jpg',
+      '/images/Anker-Soundcore-P40i-True-Wireless-Earbuds-Navy-Blue-2792.jpg',
+      '/images/Anker-Soundcore-P40i-True-Wireless-Earbuds-Ota-White-2143.jpg',
+      '/images/Anker-Soundcore-P40i-True-Wireless-Earbuds-Purple-9431.jpg',
+      '/images/Untitled-design-1-2165.jpg',
     ],
     product_sku: 'AnkerSoundcoreP40i-B57',
   },
@@ -557,7 +557,7 @@ export const products = [
     short_description: 'SoundPEATS Capsule 3 Pro Plus offer premium sound, ANC, and LDAC support.',
     long_description:
       'The SoundPEATS Capsule 3 Pro Plus ANC LDAC Earbuds deliver a premium audio experience with high-fidelity sound, thanks to LDAC codec support. Active noise cancellation blocks out unwanted distractions, allowing you to focus on your music. Enjoy a comfortable and secure fit for extended wear. These earbuds offer a range of features for a superior listening experience. (This is a sample; please expand up to 300 characters)',
-    image: ['SoundPEATS-Capsule-3-Pro-Plus-ANC-LDAC-Earbuds-1744.jpg'],
+    image: ['/images/SoundPEATS-Capsule-3-Pro-Plus-ANC-LDAC-Earbuds-1744.jpg'],
     product_sku: 'SoundPEATS3ProPlus-C23',
   },
   {
@@ -574,7 +574,7 @@ export const products = [
     short_description: 'realme Buds T01 offer clear calls with ENC and a comfortable fit.',
     long_description:
       'The realme Buds T01 ENC TWS Earbuds focus on clear communication with Environmental Noise Cancellation (ENC) for calls. Enjoy clear voice calls even in noisy environments. The comfortable fit ensures enjoyable listening for extended periods. These earbuds offer a good balance of features and value. (This is a sample; please expand up to 300 characters)',
-    image: ['realme-Buds-T01-TWS-Earbuds-Black-5641.jpg', 'realme-Buds-T01-TWS-Earbuds-White-7661.jpg'],
+    image: ['/images/realme-Buds-T01-TWS-Earbuds-Black-5641.jpg', '/images/realme-Buds-T01-TWS-Earbuds-White-7661.jpg'],
     product_sku: 'realmeBudsT01-D96',
   },
   {
@@ -591,7 +591,7 @@ export const products = [
     short_description: 'Compact smart speaker with Alexa for voice control.',
     long_description:
       'The Amazon Echo Dot (5th Gen) is a small, powerful smart speaker with Alexa. Use your voice to play music, make calls, set alarms, control smart home devices, and more. Enjoy crisp vocals and balanced bass with its powerful speaker. (Expand up to 300 characters)',
-    image: ['Amazon-Echo-Dot-5th-Gen-2022-Charcoal-4249.jpg', 'Amazon-Echo-Dot-5th-Gen-2022-Deep-Sea-Blue-7261.jpg', 'Amazon-Echo-Dot-5th-Gen-2022-Glacier-White-8617.jpg'],
+    image: ['/images/Amazon-Echo-Dot-5th-Gen-2022-Charcoal-4249.jpg', '/images/Amazon-Echo-Dot-5th-Gen-2022-Deep-Sea-Blue-7261.jpg', '/images/Amazon-Echo-Dot-5th-Gen-2022-Glacier-White-8617.jpg'],
     product_sku: 'EchoDot5Gen-NoClock',
   },
   {
@@ -608,7 +608,7 @@ export const products = [
     short_description: 'Compact smart speaker with Siri voice control.',
     long_description:
       'The Apple HomePod mini delivers rich, room-filling sound in a compact design. Works seamlessly with other Apple devices and services. Control your smart home with Siri. (Expand up to 300 characters)',
-    image: ['1525-57779.jpg', '1525-63109.jpg', 'Apple-HomePod-mini-Orange-1315.jpg', 'HomePod-mini-Blue-3801.jpg', 'Yellow-1180.jpg'],
+    image: ['/images/1525-57779.jpg', '/images/1525-63109.jpg', '/images/Apple-HomePod-mini-Orange-1315.jpg', '/images/HomePod-mini-Blue-3801.jpg', '/images/Yellow-1180.jpg'],
     product_sku: 'HomePodMini',
   },
   {
@@ -625,7 +625,7 @@ export const products = [
     short_description: 'Compact smart speaker with Alexa and a built-in clock display.',
     long_description:
       'The Amazon Echo Dot (5th Gen) with Clock is a small, powerful smart speaker with Alexa and a LED clock display. Use your voice to play music, make calls, set alarms, control smart home devices, and more. Enjoy crisp vocals and balanced bass with its powerful speaker. (Expand up to 300 characters)',
-    image: ['Amazon-Echo-Dot-5th-Gen-2022-with-Clock-Cloud-Blue-3407.jpg', 'Amazon-Echo-Dot-5th-Gen-2022-with-Clock-Glacier-White-4714.jpg'],
+    image: ['/images/Amazon-Echo-Dot-5th-Gen-2022-with-Clock-Cloud-Blue-3407.jpg', '/images/Amazon-Echo-Dot-5th-Gen-2022-with-Clock-Glacier-White-4714.jpg'],
     product_sku: 'X1Y2Z3W4',
   },
   {
@@ -642,7 +642,7 @@ export const products = [
     short_description: 'Powerful smart speaker with spatial audio.',
     long_description:
       'The Apple HomePod (2nd Gen) delivers incredible high-fidelity audio with spatial audio.  Siri is built-in, so you can control music and your smart home with your voice. (Expand up to 300 characters)',
-    image: ['Apple-HomePod-2nd-Gen---2023-White-1164.jpg', 'Apple-HomePod-2nd-Gen---2023-Black-1161.jpg'],
+    image: ['/images/Apple-HomePod-2nd-Gen---2023-White-1164.jpg', '/images/Apple-HomePod-2nd-Gen---2023-Black-1161.jpg'],
     product_sku: 'B9C8A7D6',
   },
   {
@@ -659,7 +659,7 @@ export const products = [
     short_description: 'Smart speaker with built-in IR blaster to control your devices.',
     long_description:
       'The Xiaomi IR Control Smart Speaker combines smart speaker functionality with an IR blaster, allowing you to control your TV, AC, and other IR devices with your voice. Enjoy smart home control and high-quality audio in one device. (Expand up to 300 characters)',
-    image: ['Xiaomi-IR-Control-Smart-Speaker-6643.jpg'],
+    image: ['/images/Xiaomi-IR-Control-Smart-Speaker-6643.jpg'],
     product_sku: 'W9V8U7T6',
   },
   {
@@ -676,7 +676,7 @@ export const products = [
     short_description: 'Compact smart display with Alexa.',
     long_description:
       'The Amazon Echo Spot is a stylish, compact smart display that brings you Alexa with visuals. Watch video flash briefings, make video calls, see music lyrics, and control your smart home. (Expand up to 300 characters)',
-    image: ['Amazon-Echo-Spot-Black-1218.jpg', 'Amazon-Echo-Spot-Glacier-White-7698.jpg'],
+    image: ['/images/Amazon-Echo-Spot-Black-1218.jpg', '/images/Amazon-Echo-Spot-Glacier-White-7698.jpg'],
     product_sku: 'R5Q4P3O2',
   },
   {
@@ -693,7 +693,7 @@ export const products = [
     short_description: 'Compact smart speaker with Alexa and a built-in clock display.',
     long_description:
       'The Amazon Echo Dot (3rd Gen) with Clock is a small, powerful smart speaker with Alexa and an LED clock display. Use your voice to play music, make calls, set alarms, control smart home devices, and more. Enjoy crisp vocals and balanced bass with its powerful speaker. (Expand up to 300 characters)',
-    image: ['2662-95129.jpg', '2662-31675.jpg'],
+    image: ['/images/2662-95129.jpg', '/images/2662-31675.jpg'],
     product_sku: 'L1M2N3O4',
   },
   {
@@ -710,7 +710,7 @@ export const products = [
     short_description: 'High-fidelity smart speaker with built-in wireless charger.',
     long_description:
       'The Belkin Soundform Elite delivers exceptional audio quality with powerful bass and clear highs. It also features a built-in wireless charger for your smartphone. Control music and your smart home with your voice using Alexa or Google Assistant. (Expand up to 300 characters)',
-    image: ['2754-87321.jpg', '2754-50584.jpg', '2754-73394.jpg'],
+    image: ['/images/2754-87321.jpg', '/images/2754-50584.jpg', '/images/2754-73394.jpg'],
     product_sku: 'P7R6S5T4',
   },
   {
@@ -727,7 +727,7 @@ export const products = [
     short_description: 'Compact smart speaker with Alexa.',
     long_description:
       'The Amazon Echo Dot (4th Gen) is a small, powerful smart speaker with Alexa. Use your voice to play music, make calls, set alarms, control smart home devices, and more. Enjoy crisp vocals and balanced bass with its powerful speaker. (Expand up to 300 characters)',
-    image: ['2036-40449.jpg', '2036-84238.jpg', '2036-44863.jpg'],
+    image: ['/images/2036-40449.jpg', '/images/2036-84238.jpg', '/images/2036-44863.jpg'],
     product_sku: 'U8I7H6G5',
   },
   {
@@ -744,7 +744,7 @@ export const products = [
     short_description: 'Smart speaker with Alexa, designed for kids with parental controls.',
     long_description:
       'The Amazon Echo Dot Kids (5th Gen) is a fun and safe way for kids to experience Alexa. It includes 1 year of Amazon Kids+, offering age-appropriate content and parental controls. Kids can enjoy music, stories, games, and more. (Expand up to 300 characters)',
-    image: ['Amazon-Echo-Dot-Kids-(5th-Gen)-Owl-Up-1950.jpg', 'Amazon-Echo-Dot-Kids-(5th-Gen)-Dragon-Up-1148.jpg'],
+    image: ['/images/Amazon-Echo-Dot-Kids-(5th-Gen)-Owl-Up-1950.jpg', '/images/Amazon-Echo-Dot-Kids-(5th-Gen)-Dragon-Up-1148.jpg'],
     product_sku: 'F1G2H3J4',
   },
   {
@@ -761,7 +761,7 @@ export const products = [
     short_description: 'Bluetooth calling smartwatch with fitness tracking.',
     long_description:
       'The Haylou RS5 Smart Watch allows you to make and receive calls directly from your wrist via Bluetooth. It also tracks your fitness activities, monitors your heart rate, and offers various other smart features. (Expand up to 300 characters)',
-    image: ['Haylou-RS5-BT-Calling-Smart-Watch-Black-5755.jpg', 'Haylou-RS5-BT-Calling-Smart-Watch-Silver-2502.jpg'],
+    image: ['/images/Haylou-RS5-BT-Calling-Smart-Watch-Black-5755.jpg', '/images/Haylou-RS5-BT-Calling-Smart-Watch-Silver-2502.jpg'],
     product_sku: 'K4L5M6N7',
   },
   {
@@ -779,7 +779,7 @@ export const products = [
       'Rugged smartwatch with GPS, long battery life, and military-grade durability.  Track your workouts, monitor your health, and explore the outdoors with this tough and reliable smartwatch. Featuring a vibrant AMOLED display, dual-band GPS for accurate tracking, and a wide range of sports modes. The T-Rex 3 is built to withstand the elements and keep up with your active lifestyle. Enjoy long battery life and stay connected on your adventures.',
     long_description:
       "The Amazfit T-Rex 3 is a rugged smartwatch built to withstand extreme conditions. It features a vibrant AMOLED display, dual-band GPS, 170+ sports modes, and advanced health monitoring. With its military-grade durability and long battery life, it's the perfect companion for outdoor adventures and everyday use. The T-Rex 3 boasts a 1.5-inch AMOLED touchscreen display with 2000 nits peak brightness, ensuring excellent visibility even in direct sunlight. It is equipped with dual-band GPS, allowing for accurate location tracking and navigation. The watch offers a wide range of sports modes, including running, swimming, cycling, and many more. It also provides comprehensive health monitoring features such as 24/7 heart rate tracking, blood oxygen saturation monitoring, and sleep quality analysis. The T-Rex 3 is designed to withstand harsh environments with its military-grade durability. It is resistant to extreme temperatures, water, and shocks. With its long battery life, you can rely on the T-Rex 3 to keep you going through your toughest workouts and adventures.",
-    image: ['Amazfit-T-Rex-3--Onyx-7860.jpg', 'Amazfit-T-Rex-3--Lava-7129.jpg'],
+    image: ['/images/Amazfit-T-Rex-3--Onyx-7860.jpg', '/images/Amazfit-T-Rex-3--Lava-7129.jpg'],
     product_sku: 'Z9Y8X7V6',
   },
   {
@@ -797,7 +797,7 @@ export const products = [
       'Bluetooth calling smartwatch with a sleek design and comprehensive fitness tracking. Stay connected on the go with convenient call functionality and monitor your health and activity levels with ease.  Enjoy a stylish and functional smartwatch experience with long battery life and various sports modes. The Balancs Note offers a vibrant display and user-friendly interface for effortless navigation.  Track your steps, distance, calories burned, and more, while also monitoring your heart rate and sleep quality.  Receive notifications for calls, messages, and apps, ensuring you never miss an important update.  Personalize your watch face and customize your watch to match your style.',
     long_description:
       "The Kieslect Balancs Note Calling Smart Watch combines style and functionality in a sleek and modern design.  It allows you to make and receive calls directly from your wrist via Bluetooth, providing a convenient way to stay connected on the go.  Beyond calling, the Balancs Note offers a comprehensive suite of fitness tracking features, allowing you to monitor your daily activity levels, including steps taken, distance covered, calories burned, and more.  It also tracks your heart rate and sleep quality, providing valuable insights into your overall health and well-being.  The watch boasts a vibrant display that's easy to read, even in bright sunlight, and a user-friendly interface that makes navigating through its various features a breeze.  With a long-lasting battery, you can wear the Balancs Note all day and night without worrying about running out of power.  It supports a variety of sports modes, allowing you to track your workouts accurately, whether you're running, cycling, swimming, or engaging in other activities.  The Balancs Note also keeps you connected with notifications for calls, messages, and apps, ensuring you never miss an important update.  You can personalize your watch face and customize the watch to match your style.",
-    image: ['Kieslect-Balancs-Smart-Calling-Watch-4683.jpg'],
+    image: ['/images/Kieslect-Balancs-Smart-Calling-Watch-4683.jpg'],
     product_sku: 'Q2W3E4R5',
   },
   {
@@ -815,7 +815,7 @@ export const products = [
       'Stylish and affordable smartwatch with Bluetooth calling and multiple sports modes.  Stay connected and track your fitness goals with this feature-packed smartwatch.  Enjoy convenient call functionality, monitor your heart rate, and track various activities. The IMIKI SF1 offers a comfortable fit and long battery life for all-day wear.  Receive notifications for calls, messages, and apps, ensuring you never miss an important update.  Personalize your watch face and customize your watch to match your style.  This smartwatch combines fashion and function, providing a great value for the price.  Track your steps, distance, calories burned, and more, while also monitoring your sleep quality.  The IMIKI SF1 is designed to keep up with your active lifestyle and help you stay connected.',
     long_description:
       "The IMILAB IMIKI SF1 Smart Watch offers a blend of style, functionality, and affordability.  It allows you to make and receive calls directly from your wrist via Bluetooth, providing a convenient hands-free experience.  The IMIKI SF1 is equipped with multiple sports modes to track your workouts accurately, whether you're running, cycling, swimming, or engaging in other activities.  It also monitors your heart rate, providing valuable insights into your cardiovascular health.  Beyond fitness tracking, the IMIKI SF1 keeps you connected with notifications for calls, messages, and apps, ensuring you never miss an important update.  The watch features a comfortable design for all-day wear and a long-lasting battery that keeps up with your busy lifestyle.  You can personalize your watch face and customize the watch to match your style.  The IMIKI SF1 is designed to be a versatile companion, helping you stay connected, track your fitness goals, and look good doing it.  This smartwatch provides a great value for the price, offering a wide range of features without breaking the bank.  It's an excellent choice for those looking for a stylish and functional smartwatch without compromising on affordability.",
-    image: ['MILAB-IMIKI-SF1-6967.jpg', 'IMILAB-IMIKI-SF1-Smart-Watch---Silver-7401.jpg', 'IMILAB-IMIKI-SF1-Smart-Watch---Golden-1669.jpg'],
+    image: ['/images/MILAB-IMIKI-SF1-6967.jpg', '/images/IMILAB-IMIKI-SF1-Smart-Watch---Silver-7401.jpg', '/images/IMILAB-IMIKI-SF1-Smart-Watch---Golden-1669.jpg'],
     product_sku: 'E5R4T3Y2',
   },
   {
@@ -833,7 +833,7 @@ export const products = [
       'Budget-friendly smartwatch with fitness tracking and notifications. The IMILAB IMIKI SF1E offers essential features for monitoring your activity levels and staying connected. Track your steps, distance, calories, and sleep. Receive notifications for calls, messages, and apps.  Enjoy a comfortable design and long battery life. This smartwatch is a great entry-level option for those looking to experience the benefits of a wearable device.  Monitor your heart rate and track various sports modes.  Personalize your watch face to match your style.  Stay active and connected with this affordable and functional smartwatch. The IMIKI SF1E provides a great value for the price.',
     long_description:
       "The IMILAB IMIKI SF1E Smart Watch is a budget-friendly option for those seeking a basic smartwatch with essential features. It focuses on providing core functionalities for fitness tracking and staying connected. This smartwatch allows you to monitor your daily activity levels, including steps taken, distance covered, and calories burned. It also tracks your sleep quality, providing insights into your rest patterns.  The IMIKI SF1E provides notifications for calls, messages, and apps, ensuring you don't miss important updates.  It features a comfortable design suitable for everyday wear and a long battery life that keeps up with your daily activities.  While it may not have all the advanced features of higher-end models, the IMIKI SF1E offers a solid foundation for tracking your fitness progress and staying connected.  It's a great entry-level option for those new to smartwatches or looking for a simple and affordable wearable device.  The watch monitors your heart rate and tracks various sports modes, allowing you to monitor your workouts.  You can also personalize your watch face to match your style.  The IMILAB IMIKI SF1E provides a great value for the price, offering a range of useful features without breaking the bank. It is designed to be user-friendly and accessible, making it a good choice for those who prefer simplicity and functionality.",
-    image: ['IMILAB-IMIKI-SF1E-Smartwatch---Bronze-4891.jpg', 'IMILAB-IMIKI-SF1E-Smartwatch---Gun-Black-7901.jpg'],
+    image: ['/images//images/IMILAB-IMIKI-SF1E-Smartwatch---Bronze-4891.jpg', '/images//images/IMILAB-IMIKI-SF1E-Smartwatch---Gun-Black-7901.jpg'],
     product_sku: 'G6H7J8K9',
   },
   {
@@ -851,7 +851,7 @@ export const products = [
       'Premium smartwatch with advanced health tracking, a durable design, and seamless connectivity. The Galaxy Watch Ultra offers cutting-edge features for fitness enthusiasts and tech-savvy users.  Experience advanced health monitoring, including ECG and body composition analysis.  Track your workouts with precision using built-in GPS and various sports modes.  Stay connected with seamless Bluetooth calling and notifications.  Enjoy a premium design with a durable titanium case and a vibrant display.  The Galaxy Watch Ultra is designed to elevate your lifestyle with its advanced features and stylish design.  Monitor your sleep quality and stress levels.  Control your smart home devices directly from your wrist.  This smartwatch is the ultimate companion for those seeking a premium wearable experience.',
     long_description:
       "The Galaxy Watch Ultra is a premium smartwatch designed for those who demand the best in terms of features, performance, and style. It boasts a range of advanced health tracking capabilities, including ECG, body composition analysis, and continuous heart rate monitoring.  These features provide valuable insights into your overall health and well-being, empowering you to make informed decisions about your lifestyle.  For fitness enthusiasts, the Galaxy Watch Ultra offers precise workout tracking with built-in GPS and a wide variety of sports modes.  Whether you're running, swimming, cycling, or engaging in other activities, this smartwatch accurately records your performance and provides detailed data to help you achieve your fitness goals.  Staying connected is seamless with Bluetooth calling and notifications.  You can receive calls, messages, and app alerts directly on your wrist, ensuring you never miss an important update.  The Galaxy Watch Ultra features a premium design with a durable titanium case and a vibrant display that's easy to read even in bright sunlight.  It's built to withstand the rigors of daily wear and tear, making it the perfect companion for your active lifestyle.  Beyond fitness and connectivity, the Galaxy Watch Ultra also monitors your sleep quality and stress levels, providing a holistic view of your health.  It even allows you to control your smart home devices directly from your wrist, adding another layer of convenience to your life.  The Galaxy Watch Ultra is the ultimate companion for those seeking a premium wearable experience that seamlessly integrates health tracking, fitness monitoring, connectivity, and style.",
-    image: ['Galaxy-Watch-Ultra-Titanium-Gray-1156.jpg', 'Galaxy-Watch-Ultra-Titanium-Silver-6046.jpg', 'Galaxy-Watch-Ultra-Titanium-White-8456.jpg'],
+    image: ['/images/Galaxy-Watch-Ultra-Titanium-Gray-1156.jpg', '/images/Galaxy-Watch-Ultra-Titanium-Silver-6046.jpg', '/images/Galaxy-Watch-Ultra-Titanium-White-8456.jpg'],
     product_sku: 'V7B6N5M4',
   },
   {
@@ -870,9 +870,9 @@ export const products = [
     long_description:
       "The Zeblaze Btalk Plus Voice Calling Smartwatch is designed to offer a balance of features and affordability. It allows you to make and receive calls directly from your wrist via Bluetooth, providing a convenient way to stay connected while on the move.  Beyond calling, the Btalk Plus tracks your fitness progress by monitoring your steps, distance covered, and calories burned. It also monitors your heart rate and sleep quality, providing insights into your overall health and well-being.  The watch boasts a stylish design that's suitable for everyday wear, and its long battery life ensures you can wear it all day without needing to recharge frequently.  You can receive notifications for calls, messages, and apps directly on your wrist, so you'll never miss an important update.  The Btalk Plus also allows you to personalize your watch face, giving you the freedom to customize its appearance to match your personal style.  This smartwatch is a budget-friendly option for those who want to experience the convenience of a smartwatch without breaking the bank. It offers a good set of features for its price point, making it a great value for those looking to stay active, connected, and stylish. The Zeblaze Btalk Plus is a good choice for those new to smartwatches or looking for an affordable and functional option.",
     image: [
-      'Zeblaze-Btalk-Plus-Voice-Calling-Smartwatch-Jet-Black-9396.jpg',
-      'Zeblaze-Btalk-Plus-Voice-Calling-Smartwatch-Rose-Pink-5156.jpg',
-      'Zeblaze-Btalk-Plus-Voice-Calling-Smartwatch-Starlight-Silver-8884.jpg',
+      '/images/Zeblaze-Btalk-Plus-Voice-Calling-Smartwatch-Jet-Black-9396.jpg',
+      '/images/Zeblaze-Btalk-Plus-Voice-Calling-Smartwatch-Rose-Pink-5156.jpg',
+      '/images/Zeblaze-Btalk-Plus-Voice-Calling-Smartwatch-Starlight-Silver-8884.jpg',
     ],
     product_sku: 'W8X9Y0Z1',
   },
@@ -892,9 +892,9 @@ export const products = [
     long_description:
       "The Haylou Solar 5 BT Calling Smart Watch combines a stylish design with a wide range of features. It allows you to make and receive calls directly from your wrist via Bluetooth, providing a convenient hands-free experience.  The Solar 5 boasts a large, easy-to-read display, making it simple to navigate through its various functions.  It offers comprehensive health tracking, monitoring your heart rate, sleep quality, and activity levels throughout the day.  With various sports modes, you can accurately track your workouts, whether you're running, cycling, swimming, or engaging in other activities.  The watch is designed for comfort, ensuring you can wear it all day and night without any discomfort.  Its long battery life means you won't have to worry about frequent charging.  Stay connected with notifications for calls, messages, and apps, ensuring you never miss an important update.  You can also personalize your watch face to match your style.  The Haylou Solar 5 is a great value for the price, offering a wide array of features without breaking the bank.  It's an excellent choice for those looking for a stylish, functional, and affordable smartwatch.  This watch is designed to keep up with your active lifestyle and help you stay connected and informed.",
     image: [
-      'Haylou-Solar-5-BT-Calling-Smart-Watch-Metalic-Silver-8935.jpg',
-      'Haylou-Solar-5-BT-Calling-Smart-Watch-Silicon-Silver-3630.jpg',
-      'Haylou-Solar-5-BT-Calling-Smart-Watch-Silicon-Black-4497.jpg',
+      '/images/Haylou-Solar-5-BT-Calling-Smart-Watch-Metalic-Silver-8935.jpg',
+      '/images/Haylou-Solar-5-BT-Calling-Smart-Watch-Silicon-Silver-3630.jpg',
+      '/images/Haylou-Solar-5-BT-Calling-Smart-Watch-Silicon-Black-4497.jpg',
     ],
     product_sku: 'A2B3C4D5',
   },
@@ -913,7 +913,7 @@ export const products = [
       'Advanced smartwatch with health monitoring, fitness tracking, and cellular connectivity. The Apple Watch Series 9 offers cutting-edge features and a premium design.  Experience advanced health tracking, including blood oxygen and ECG.  Track your workouts with precision using GPS and various sports modes.  Stay connected with cellular connectivity and notifications.  Enjoy a premium design with a durable display and comfortable band.  The Apple Watch Series 9 is designed to enhance your active lifestyle and keep you connected. Monitor your sleep quality and stress levels.  Control your smart home devices from your wrist. This smartwatch is the ultimate companion for those seeking a premium wearable experience.',
     long_description:
       "The Apple Watch Series 9 is a cutting-edge smartwatch that seamlessly integrates health monitoring, fitness tracking, and connectivity into a stylish and functional device. It boasts a range of advanced health features, including blood oxygen monitoring and ECG, providing valuable insights into your well-being.  For fitness enthusiasts, the Apple Watch Series 9 offers precise workout tracking with built-in GPS and a wide variety of sports modes.  Whether you're running, swimming, cycling, or engaging in other activities, this smartwatch accurately records your performance and provides detailed data to help you achieve your fitness goals.  Staying connected is effortless with cellular connectivity, allowing you to make calls, send texts, and stream music even without your phone nearby.  You can also receive notifications for calls, messages, and apps directly on your wrist.  The Apple Watch Series 9 features a premium design with a durable display and a comfortable band, making it suitable for all-day wear.  It's built to withstand the rigors of daily use, ensuring it can keep up with your active lifestyle.  Beyond fitness and connectivity, the Apple Watch Series 9 also monitors your sleep quality and stress levels, providing a holistic view of your health.  It even allows you to control your smart home devices directly from your wrist, adding another layer of convenience to your life.  The Apple Watch Series 9 is the ultimate companion for those seeking a premium wearable experience that seamlessly integrates health tracking, fitness monitoring, connectivity, and style.",
-    image: ['Apple-Watch-Series-9-(3)-6716.jpg', 'Apple-Watch-Series-9-(2)-8332.jpg', 'Apple-Watch-Series-9-(6)-5351.jpg'],
+    image: ['/images/Apple-Watch-Series-9-(3)-6716.jpg', '/images/Apple-Watch-Series-9-(2)-8332.jpg', '/images/Apple-Watch-Series-9-(6)-5351.jpg'],
     product_sku: 'D3E4F5G6',
   },
   {
@@ -931,7 +931,7 @@ export const products = [
       'Premium calling smartwatch with a sleek design and advanced health monitoring. The Kieslect Kr2 LTD offers seamless Bluetooth calling and comprehensive fitness tracking. Stay connected and monitor your heart rate, sleep, and activity levels. Enjoy a vibrant display and long battery life.  Personalize your watch face.  This smartwatch is designed to elevate your style and keep you connected. Track your steps, distance, and calories burned.  The Kr2 LTD is a great combination of fashion and function.  This watch offers a premium experience at an affordable price.',
     long_description:
       "The Kieslect Kr2 LTD Calling Smart Watch is a premium smartwatch that combines style and functionality. It allows you to make and receive calls directly from your wrist via Bluetooth, providing a convenient hands-free experience.  The Kr2 LTD boasts a sleek and modern design, making it a stylish accessory for any occasion.  It offers comprehensive health monitoring, tracking your heart rate, sleep quality, and activity levels throughout the day.  With its advanced fitness tracking capabilities, you can monitor your workouts accurately, whether you're running, cycling, swimming, or engaging in other activities.  The watch features a vibrant display that's easy to read, even in bright sunlight, and its long battery life ensures you can wear it all day without needing to recharge frequently.  Stay connected with notifications for calls, messages, and apps, ensuring you never miss an important update.  You can also personalize your watch face to match your personal style.  The Kieslect Kr2 LTD is designed to elevate your style and keep you connected.  It's a great combination of fashion and function, offering a premium experience at an affordable price.  This smartwatch is an excellent choice for those looking for a stylish, functional, and feature-rich wearable device.",
-    image: ['Kieslect-Kr2-LTD-Calling-Smart-Watch-1895.jpg', 'Kieslect-Kr2-LTD-Calling-Smart-Watch-black-2143.jpg'],
+    image: ['/images/Kieslect-Kr2-LTD-Calling-Smart-Watch-1895.jpg', '/images/Kieslect-Kr2-LTD-Calling-Smart-Watch-black-2143.jpg'],
     product_sku: 'J4K5L6M7',
   },
   {
@@ -949,12 +949,12 @@ export const products = [
       'Wireless headphones with Active Noise Cancellation (ANC) for immersive audio. Enjoy powerful sound and comfortable earcups for extended listening. The boAt Rockerz 551 ANC offers seamless Bluetooth connectivity and long battery life.  Experience deep bass and clear highs with these stylish headphones.  Control your music and calls with ease using the built-in controls.  These headphones are perfect for travel, work, or relaxation.  Immerse yourself in your music without distractions. The Rockerz 551 ANC provides a premium audio experience.',
     long_description:
       "The boAt Rockerz 551 ANC Wireless Headphones are designed to provide an immersive audio experience with Active Noise Cancellation (ANC). ANC technology effectively blocks out unwanted background noise, allowing you to focus on your music, podcasts, or calls without distractions.  These headphones deliver powerful sound with deep bass and clear highs, ensuring a rich and enjoyable listening experience.  The comfortable earcups and adjustable headband make them suitable for extended listening sessions, whether you're at home, at work, or on the go.  Seamless Bluetooth connectivity allows you to easily pair your devices and enjoy wireless music streaming.  The long battery life ensures that you can listen to your favorite tunes for hours on end without needing to recharge.  Built-in controls make it easy to manage your music playback and answer calls without reaching for your phone.  The boAt Rockerz 551 ANC Wireless Headphones are perfect for travel, work, or relaxation, providing a premium audio experience wherever you are.  Immerse yourself in your music without distractions and enjoy the powerful sound and comfortable design of these stylish headphones.  They offer a great combination of features, performance, and value, making them a great choice for anyone looking for ANC headphones.",
-    image: ['boAt-Rockerz-551-ANC-Wireless-Headphone-4561.jpg'],
+    image: ['/images/boAt-Rockerz-551-ANC-Wireless-Headphone-4561.jpg'],
     product_sku: 'N5O6P7Q8',
   },
   {
     id: 52,
-    name: 'Oraimo OHP-317 BoomPop Lite ENC Wireless Headphone',
+    name: 'Oraimo BoomPop Lite ENC',
     category: 'Headphone',
     regular_price: 59.99,
     sale_price: 49.99,
@@ -967,12 +967,12 @@ export const products = [
       'Wireless headphones with ENC for clear calls and immersive audio. Enjoy powerful sound and comfortable earcups for extended listening. The Oraimo OHP-317 offers seamless Bluetooth connectivity and long battery life. Experience deep bass and clear highs with these stylish headphones. Control your music and calls with ease using the built-in controls. These headphones are perfect for travel, work, or relaxation. Immerse yourself in your music without distractions. The BoomPop Lite provides a premium audio experience.',
     long_description:
       'The Oraimo OHP-317 BoomPop Lite ENC Wireless Headphones are designed to deliver a high-quality audio experience with enhanced noise cancellation. Equipped with Environmental Noise Cancellation (ENC) technology, these headphones effectively filter out background noise, ensuring clear calls even in noisy environments. They produce powerful sound with deep bass and clear highs, creating an immersive audio experience for your music, movies, and games. The comfortable earcups and adjustable headband ensure a snug and comfortable fit for extended listening sessions. Seamless Bluetooth connectivity allows you to easily pair your devices and enjoy wireless music streaming. The long battery life ensures you can enjoy your music for hours on end without needing to recharge frequently. Built-in controls make it easy to manage your music playback, adjust volume, and answer calls without reaching for your phone. The Oraimo OHP-317 BoomPop Lite ENC Wireless Headphones are perfect for travel, work, or relaxation, providing a premium audio experience wherever you go. Immerse yourself in your music and enjoy the enhanced noise cancellation and powerful sound of these stylish headphones.',
-    image: ['Oraimo-OHP-317-BoomPop-Lite-ENC-Wireless-Headphone-Gold-3724.jpg', 'Oraimo-OHP-317-BoomPop-Lite-ENC-Wireless-Headphone-Black-4912.jpg'],
+    image: ['/images/Oraimo-OHP-317-BoomPop-Lite-ENC-Wireless-Headphone-Gold-3724.jpg', '/images/Oraimo-OHP-317-BoomPop-Lite-ENC-Wireless-Headphone-Black-4912.jpg'],
     product_sku: 'R7S6T8U9',
   },
   {
     id: 53,
-    name: 'WIWU Soundcool Headset TD-02 Wireless Bluetooth Headphone',
+    name: 'WIWU Soundcool TD-02',
     category: 'Headphone',
     regular_price: 129.99,
     sale_price: 99.99,
@@ -985,12 +985,12 @@ export const products = [
       'Comfortable and stylish wireless headphones with deep bass and clear treble. Enjoy seamless Bluetooth connectivity and long battery life. The WIWU Soundcool TD-02 offers a comfortable fit and stylish design.  Experience immersive audio with powerful sound and enhanced bass.  Control your music and calls with ease using the built-in controls.  These headphones are perfect for travel, work, or relaxation.  Immerse yourself in your music without distractions.  The Soundcool TD-02 provides a premium audio experience.',
     long_description:
       'The WIWU Soundcool Headset TD-02 Wireless Bluetooth Headphones are designed to provide a comfortable and stylish listening experience. They feature soft ear cups and an adjustable headband for a comfortable fit, even during extended listening sessions. The sleek and modern design makes them a stylish accessory to complement your personal style. The Soundcool TD-02 delivers powerful sound with deep bass and clear treble, ensuring a rich and immersive audio experience.  Seamless Bluetooth connectivity allows you to easily pair your devices and enjoy wireless music streaming.  The long battery life ensures that you can listen to your favorite tunes for hours on end without needing to recharge.  Built-in controls make it easy to manage your music playback, adjust volume, and answer calls without reaching for your phone. The WIWU Soundcool Headset TD-02 Wireless Bluetooth Headphones are perfect for travel, work, or relaxation, providing a premium audio experience wherever you go.  Immerse yourself in your music without distractions and enjoy the comfort and style of these high-quality headphones.',
-    image: ['WIWU-Soundcool-Headset-TD-02-Wireless-Bluetooth-Headphone-White-6446.jpg', 'WIWU-Soundcool-Headset-TD-02-Wireless-Bluetooth-Headphone-Black-9482.jpg'],
+    image: ['/images/WIWU-Soundcool-Headset-TD-02-Wireless-Bluetooth-Headphone-White-6446.jpg', '/images/WIWU-Soundcool-Headset-TD-02-Wireless-Bluetooth-Headphone-Black-9482.jpg'],
     product_sku: 'I9J8H7G6',
   },
   {
     id: 54,
-    name: 'HAYLOU S35 Over Ear Noise Canceling Headphones',
+    name: 'HAYLOU S35 Noise Canceling',
     category: 'Headphone',
     regular_price: 79.99,
     sale_price: 69.99,
@@ -1003,12 +1003,12 @@ export const products = [
       'Over-ear headphones with Active Noise Cancellation (ANC) for immersive listening. Enjoy high-quality audio and a comfortable fit. The HAYLOU S35 offers Bluetooth connectivity and long battery life. Experience deep bass and clear sound. Control music and calls with built-in controls. Perfect for travel, work, or relaxation. Block out distractions and immerse yourself in your audio. The S35 provides a premium listening experience.',
     long_description:
       'The HAYLOU S35 Over-Ear Noise Canceling Headphones are designed to provide an immersive audio experience with Active Noise Cancellation (ANC). ANC technology effectively reduces unwanted background noise, allowing you to focus on your music, podcasts, or calls without distractions. These headphones deliver high-quality audio with deep bass and clear sound, ensuring an enjoyable listening experience. The comfortable over-ear design and adjustable headband make them suitable for extended listening sessions. Seamless Bluetooth connectivity allows you to easily pair your devices and enjoy wireless music streaming. The long battery life ensures that you can listen to your favorite tunes for hours on end without needing to recharge. Built-in controls make it easy to manage your music playback and answer calls without reaching for your phone. The HAYLOU S35 Over-Ear Noise Canceling Headphones are perfect for travel, work, or relaxation, providing a premium audio experience wherever you are. Block out distractions and immerse yourself in your audio with these comfortable and high-performing headphones. They offer a great combination of features, performance, and value, making them a great choice for anyone looking for ANC headphones.',
-    image: ['Violet-Orange-8040.jpg', 'Dark-Blue-6587.jpg', 'White-9764.jpg'],
+    image: ['/images/Violet-Orange-8040.jpg', '/images/Dark-Blue-6587.jpg', '/images/White-9764.jpg'],
     product_sku: 'K6L7M8N9',
   },
   {
     id: 55,
-    name: 'Anker Soundcore Space Q45 Noise Cancelling Headphones',
+    name: 'Anker Soundcore Space Q45',
     category: 'Headphone',
     regular_price: 149.99,
     sale_price: 129.99,
@@ -1021,7 +1021,7 @@ export const products = [
       'Premium noise-canceling headphones with exceptional sound quality and comfort. The Anker Soundcore Space Q45 offers long battery life and customizable EQ. Enjoy immersive audio and block out distractions. Control your music and calls with ease. Perfect for travel, work, or relaxation. Experience premium sound and superior noise cancellation with the Space Q45.',
     long_description:
       'The Anker Soundcore Space Q45 Noise Cancelling Headphones are designed to provide a premium listening experience with exceptional sound quality and superior noise cancellation.  These headphones feature advanced noise-canceling technology that effectively blocks out a wide range of ambient sounds, allowing you to immerse yourself in your music, podcasts, or calls without distractions. The Space Q45 delivers rich, detailed audio with deep bass, clear mids, and crisp highs, ensuring an enjoyable listening experience across various genres. The comfortable over-ear design and plush earcups provide a comfortable fit, even during extended listening sessions.  With an incredibly long battery life, you can enjoy your music for hours on end without needing to recharge.  The Soundcore app allows for customizable EQ settings, so you can tailor the sound to your personal preferences.  Built-in controls make it easy to manage your music playback, adjust volume, and answer calls. The Anker Soundcore Space Q45 Noise Cancelling Headphones are perfect for travel, work, or relaxation, providing a premium audio experience wherever you are. Experience premium sound and superior noise cancellation with the Space Q45 and enjoy your audio without distractions.  These headphones offer an excellent combination of features, performance, comfort, and value.',
-    image: ['Anker-Soundcore-Space-Q45-Noise-Cancelling-Headphones-a-6689.jpg', 'Anker-Soundcore-Space-Q45-White-8982.jpg', 'Anker-Soundcore-Space-Q45-Blue-5028.jpg'],
+    image: ['/images/Anker-Soundcore-Space-Q45-Noise-Cancelling-Headphones-a-6689.jpg', '/images/Anker-Soundcore-Space-Q45-White-8982.jpg', '/images/Anker-Soundcore-Space-Q45-Blue-5028.jpg'],
     product_sku: 'P9Q0R1S2',
   },
 ];
