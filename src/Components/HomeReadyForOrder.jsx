@@ -43,23 +43,35 @@ const HomeReadyForOrder = () => {
       <section className="container mx-auto responsive-padding mb-6 py-2 overflow-hidden">
         <Slider {...settings}>
           {products.map((item, index) => (
-           <div key={index} className="single-product h-[330px] md:h-[350px] shadow-xl border border-gray-200 rounded-lg text-center p-6 mx-2 my-6">
-           <img src={item.image[0]} alt="" className="p-4" />
-           <div className="h-18 overflow-hidden">
-            <Link to={`/product/${LinkGenerator.generateProductLink(item.name)}`}>
-             <p className="font-medium my-3 transition-all duration-300 hover:text-primary">{item.name}</p>
-            </Link>
-           </div>
-           <div className="button  py-1 mt-5 md:mt-0">
-            <Link to={`/product/${LinkGenerator.generateProductLink(item.name)}`}>
-             <button className="px-3 py-1 rounded-md text-base transition-all duration-300 hover:text-black">
-               Select Product
-             </button>
-            </Link>
-           </div>
-         </div>
+            <div
+              key={index}
+              className="single-product shadow-xl border border-gray-200 rounded-lg text-center p-6 mx-2 my-6"
+            >
+              <img src={item.image[0]} alt="" className="p-4" />
+              <div className="h-18 overflow-hidden">
+                <Link
+                  to={`/product/${LinkGenerator.generateProductLink(
+                    item.name
+                  )}`}
+                >
+                  <p className="font-medium my-3 transition-all duration-300 hover:text-primary">
+                    {item.name}
+                  </p>
+                </Link>
+              </div>
+              <div className="button  py-1 mt-5 md:mt-0">
+                <Link
+                  to={`/product/${LinkGenerator.generateProductLink(
+                    item.name
+                  )}`}
+                >
+                  <button className="px-3 py-1 rounded-md text-base transition-all duration-300 hover:text-black">
+                    Select Product
+                  </button>
+                </Link>
+              </div>
+            </div>
           ))}
-
         </Slider>
       </section>
     </div>

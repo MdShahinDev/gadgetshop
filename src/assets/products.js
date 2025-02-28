@@ -405,7 +405,7 @@ export const products = [
   },
   {
     id: 21,
-    name: 'Nokia Essential True Wireless Earphones E3511 ANC',
+    name: 'Nokia E3511 ANC',
     category: 'Airpods',
     regular_price: 79.99,
     sale_price: 69.99,
@@ -422,7 +422,7 @@ export const products = [
   },
   {
     id: 22,
-    name: 'Redmi Buds 6 Lite ANC TWS Earbuds',
+    name: 'Redmi Buds 6 Lite',
     category: 'Airpods',
     regular_price: 49.99,
     sale_price: 39.99,
@@ -439,7 +439,7 @@ export const products = [
   },
   {
     id: 23,
-    name: 'OnePlus Buds Ace 2 ANC TWS Earbuds',
+    name: 'OnePlus Buds Ace 2',
     category: 'Airpods',
     regular_price: 99.99,
     sale_price: 79.99,
@@ -456,7 +456,7 @@ export const products = [
   },
   {
     id: 24,
-    name: 'Oraimo Spacebuds Neo TWS Earbuds',
+    name: 'Oraimo Spacebuds',
     category: 'Airpods',
     regular_price: 49.99,
     sale_price: 39.99,
@@ -472,7 +472,7 @@ export const products = [
   },
   {
     id: 25,
-    name: 'Apple AirPods (4th Generation)',
+    name: 'Apple AirPods (4th Gen)',
     category: 'Airpods',
     regular_price: 169.0,
     sale_price: 149.0,
@@ -489,7 +489,7 @@ export const products = [
   },
   {
     id: 26,
-    name: 'JBL Live Flex 3 NC TWS Earbuds',
+    name: 'JBL Flex 3 NC',
     category: 'Airpods',
     regular_price: 149.99,
     sale_price: 129.99,
@@ -506,7 +506,7 @@ export const products = [
   },
   {
     id: 27,
-    name: 'OnePlus Nord Buds 3 Pro',
+    name: 'OnePlus Buds 3 Pro',
     category: 'Airpods',
     regular_price: 99.99,
     sale_price: 79.99,
@@ -523,7 +523,7 @@ export const products = [
   },
   {
     id: 28,
-    name: 'Anker Soundcore P40i True Wireless Earbuds',
+    name: 'Anker Soundcore P40i',
     category: 'Airpods',
     regular_price: 79.99,
     sale_price: 59.99,
@@ -545,7 +545,7 @@ export const products = [
   },
   {
     id: 29,
-    name: 'SoundPEATS Capsule 3 Pro Plus ANC LDAC Earbuds',
+    name: 'SoundPEATS 3 Pro',
     category: 'Airpods',
     regular_price: 99.99,
     sale_price: 79.99,
@@ -562,7 +562,7 @@ export const products = [
   },
   {
     id: 30,
-    name: 'realme Buds T01 ENC TWS Earbuds',
+    name: 'Realme Buds T01',
     category: 'Airpods',
     regular_price: 49.99,
     sale_price: 39.99,
@@ -579,7 +579,7 @@ export const products = [
   },
   {
     id: 31,
-    name: 'Amazon Echo Dot 5th Gen Speaker - Without Clock',
+    name: 'Amazon Echo Dot Speaker',
     category: 'Speaker',
     regular_price: 49.99,
     sale_price: 39.99,
@@ -613,7 +613,7 @@ export const products = [
   },
   {
     id: 33,
-    name: 'Amazon Echo Dot 5th Gen Speaker - With Clock',
+    name: 'Amazon Speaker 5th Gen',
     category: 'Speaker',
     regular_price: 59.99,
     sale_price: 49.99,
@@ -647,7 +647,7 @@ export const products = [
   },
   {
     id: 35,
-    name: 'Xiaomi IR Control Smart Speaker',
+    name: 'Xiaomi Smart Speaker',
     category: 'Speaker',
     regular_price: 59.99,
     sale_price: 49.99,
@@ -681,7 +681,7 @@ export const products = [
   },
   {
     id: 37,
-    name: 'Amazon Echo Dot 3rd Gen Mini Speaker - With Clock',
+    name: 'Amazon Echo Dot Mini Speaker',
     category: 'Speaker',
     regular_price: 49.99,
     sale_price: 39.99,
@@ -698,7 +698,7 @@ export const products = [
   },
   {
     id: 38,
-    name: 'Belkin Soundform Elite Hi-Fi Smart Speaker + Wireless Charger',
+    name: 'Belkin Soundform Smart Speaker',
     category: 'Speaker',
     regular_price: 299.99,
     sale_price: 249.99,
@@ -715,7 +715,7 @@ export const products = [
   },
   {
     id: 39,
-    name: 'Amazon Echo Dot 4th Gen Mini Speaker',
+    name: 'Amazon Echo Dot 4th Gen Mini',
     category: 'Speaker',
     regular_price: 49.99,
     sale_price: 39.99,
@@ -749,7 +749,7 @@ export const products = [
   },
   {
     id: 41,
-    name: 'Haylou RS5 BT Calling Smart Watch',
+    name: 'Haylou RS5 Smart Watch',
     category: 'Smart Watch',
     regular_price: 79.99,
     sale_price: 69.99,
@@ -784,7 +784,7 @@ export const products = [
   },
   {
     id: 43,
-    name: 'Kieslect Balancs Note Calling Smart Watch',
+    name: 'Kieslect Balancs Smart Watch',
     category: 'Smart Watch',
     regular_price: 89.99,
     sale_price: 79.99,
@@ -802,7 +802,7 @@ export const products = [
   },
   {
     id: 44,
-    name: 'IMILAB IMIKI SF1 Smart Watch',
+    name: 'IMILAB SF1 Smart Watch',
     category: 'Smart Watch',
     regular_price: 69.99,
     sale_price: 59.99,
@@ -820,7 +820,7 @@ export const products = [
   },
   {
     id: 45,
-    name: 'IMILAB IMIKI SF1E Smart Watch',
+    name: 'IMILAB SF1E Smart Watch',
     category: 'Smart Watch',
     regular_price: 59.99,
     sale_price: 49.99,
@@ -856,7 +856,7 @@ export const products = [
   },
   {
     id: 47,
-    name: 'Zeblaze Btalk Plus Voice Calling Smartwatch',
+    name: 'Zeblaze Voice Calling Smartwatch',
     category: 'Smart Watch',
     regular_price: 69.99,
     sale_price: 59.99,
@@ -878,7 +878,7 @@ export const products = [
   },
   {
     id: 48,
-    name: 'Haylou Solar 5 BT Calling Smart Watch',
+    name: 'Haylou Solar Smart Watch',
     category: 'Smart Watch',
     regular_price: 79.99,
     sale_price: 69.99,
@@ -918,7 +918,7 @@ export const products = [
   },
   {
     id: 50,
-    name: 'Kieslect Kr2 LTD Calling Smart Watch',
+    name: 'Kieslect Smart Watch',
     category: 'Smart Watch',
     regular_price: 99.99,
     sale_price: 89.99,
@@ -936,7 +936,7 @@ export const products = [
   },
   {
     id: 51,
-    name: 'boAt Rockerz 551 ANC Wireless Headphone',
+    name: 'Boat Rockerz 551',
     category: 'Headphone',
     regular_price: 99.99,
     sale_price: 79.99,

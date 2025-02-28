@@ -1,15 +1,13 @@
-
-import TopBar from './TopBar'
-import MainHeader from './MainHeader'
-
+import TopBar from "./TopBar";
+import MainHeader from "./MainHeader";
 
 const Header = () => {
   return (
     <div>
-      <TopBar/>
-      <MainHeader/>
+      <TopBar />
+      <MainHeader />
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
