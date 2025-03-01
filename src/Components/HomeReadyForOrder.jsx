@@ -59,13 +59,13 @@ const HomeReadyForOrder = () => {
                   </p>
                 </Link>
               </div>
-              <div className="button  py-1 mt-5 md:mt-0">
+              <div className="button  py-1 md:mt-0">
                 <Link
                   to={`/product/${LinkGenerator.generateProductLink(
                     item.name
                   )}`}
                 >
-                  <button className="px-3 py-1 rounded-md text-base transition-all duration-300 hover:text-black">
+                  <button className="px-3 py-1 rounded-md text-xs sm:text-base transition-all duration-300 hover:text-black">
                     Select Product
                   </button>
                 </Link>

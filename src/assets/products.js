@@ -856,7 +856,7 @@ export const products = [
   },
   {
     id: 47,
-    name: 'Zeblaze Voice Calling Smartwatch',
+    name: 'Zeblaze Calling Smartwatch',
     category: 'Smart Watch',
     regular_price: 69.99,
     sale_price: 59.99,
