@@ -37,34 +37,41 @@ const HomeReadyForOrder = () => {
     ],
   };
   const { products } = useContext(ShopContext);
-
+  console.log(products);
+  
   return (
     <div>
       <section className="container mx-auto responsive-padding mb-6 py-2 overflow-hidden">
         <Slider {...settings}>
           {products.map((item, index) => (
             <div
-              key={index}
-              className="single-product shadow-xl border border-gray-200 rounded-lg text-center p-6 mx-2 my-6"
-            >
+              key={index} className="single-product shadow-xl border border-gray-200 rounded-lg text-center p-6 mx-2 my-6">
               <img src={item.image[0]} alt="" className="p-4" />
               <div className="h-18 overflow-hidden">
-                <Link
-                  to={`/product/${LinkGenerator.generateProductLink(
-                    item.name
-                  )}`}
-                >
-                  <p className="font-medium my-3 transition-all duration-300 hover:text-primary">
-                    {item.name}
-                  </p>
+                <Link to={`/product/${LinkGenerator.generateProductLink( item.name )}`} >
+                  <p className="font-medium my-3 transition-all duration-300 hover:text-primary"> {item.name} </p>
                 </Link>
               </div>
+              <div className="item-price">
+  {item.price_options && item.price_options.length > 0 ? (
+    // If price_options exist, show min and max sale prices
+    <p className="text-lg font-semibold text-gray-700">
+      ${Math.min(...item.price_options.map(option => option.sale_price))} - 
+      ${Math.max(...item.price_options.map(option => option.sale_price))}
+    </p>
+  ) : (
+    // If only sale_price exists, show the sale price
+    <p className="text-lg font-semibold text-red-500">
+      ${item.sale_price} 
+      <span className="text-gray-400 line-through text-sm ml-2">
+        ${item.regular_price}
+      </span>
+    </p>
+  )}
+</div>
+
               <div className="button  py-1 md:mt-0">
-                <Link
-                  to={`/product/${LinkGenerator.generateProductLink(
-                    item.name
-                  )}`}
-                >
+                <Link to={`/product/${LinkGenerator.generateProductLink(item.name)}`}>
                   <button className="px-3 py-1 rounded-md text-xs sm:text-base transition-all duration-300 hover:text-black">
                     Select Product
                   </button>

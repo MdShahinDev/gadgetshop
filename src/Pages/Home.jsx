@@ -3,7 +3,7 @@ import HomeHeroSlider from '../Components/HomeHeroSlider';
 import SectionTitle from '../ReusableComponent/SectionTitle';
 import HomeCategory from '../Components/HomeCategory';
 import HomeReadyForOrder from '../Components/HomeReadyForOrder';
-
+import FeatureBanner from '../Components/featureBanner';
 const Home = () => {
   return (
     <div>
@@ -12,6 +12,7 @@ const Home = () => {
       <HomeCategory />
       <SectionTitle heading='Ready For Order 🔥' text='New Arrival Product are Ready for your order'/>
       <HomeReadyForOrder/>
+      <FeatureBanner/>
     </div>
   );
 };
