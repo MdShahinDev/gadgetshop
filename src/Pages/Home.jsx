@@ -3,7 +3,7 @@ import HomeHeroSlider from '../Components/HomeHeroSlider';
 import SectionTitle from '../ReusableComponent/SectionTitle';
 import HomeCategory from '../Components/HomeCategory';
 import HomeReadyForOrder from '../Components/HomeReadyForOrder';
-import FeatureBanner from '../Components/featureBanner';
+import FeatureBanner from '../Components/FeatureBanner';
 const Home = () => {
   return (
     <div>
